@@ -9,7 +9,9 @@
   "first_name",
   "last_name",
   "email",
-  "age"
+  "age",
+  "fathers_name",
+  "mothers_name"
  ],
  "fields": [
   {
@@ -31,11 +33,21 @@
    "fieldname": "age",
    "fieldtype": "Data",
    "label": "Age"
+  },
+  {
+   "fieldname": "fathers_name",
+   "fieldtype": "Data",
+   "label": "Fathers Name"
+  },
+  {
+   "fieldname": "mothers_name",
+   "fieldtype": "Data",
+   "label": "Mothers Name"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2021-12-25 18:50:31.779821",
+ "modified": "2021-12-25 19:10:36.097843",
  "modified_by": "Administrator",
  "module": "SAID Innovations",
  "name": "Test Doctype",
